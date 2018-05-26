@@ -1,0 +1,38 @@
+button.navbar-toggle {
+	float: left;
+	margin-left: 5px;
+
+	
+}
+
+.Hello {
+	/*float: right;*/
+}
+
+.searchBarMin {
+	float: right;
+}
+
+@media only screen and (max-width: 770px) {
+	.searchBarFull {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 770px) {
+	.searchBarMin {
+		display: none;
+	}
+}
+
+.navbar-brand {
+	float: right;
+}
+
+/*@media (min-width: @screen-md-min)  {
+	.searchBarFull {
+		display: none;
+		background-color: red;
+	}
+
+}*/
