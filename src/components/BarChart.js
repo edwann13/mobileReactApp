@@ -7,11 +7,15 @@ class BarChart extends Component {
       super(props)
       this.createBarChart = this.createBarChart.bind(this)
    }
-   componentDidMount() {
+   componentDidMount()  {
       this.createBarChart()
    }
    componentDidUpdate() {
       this.createBarChart()
+   }
+
+   updateArc() {
+      
    }
    createBarChart() {
       const node = this.node

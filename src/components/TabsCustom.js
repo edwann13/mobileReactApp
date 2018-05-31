@@ -10,13 +10,13 @@ export default class TabsCustom extends Component {
 		return (
 			<Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
 				<Tab eventKey={1} title="Today">
-					<ArcGraph onclick={this.props.updateArc1} data={[1,2,1,2,1,2,1,2,1]} size={[300,300]}/>
+					<ArcGraph color="red" updateArc={this.addNumber} size={[300,300]}/>
 				</Tab>
-				<Tab eventKey={2} title="Week">
-					<BarChart data={[1,2,1,2,1,2,1,2,1]} size={[500,500]}/>
+				<Tab eventKey={2} title="Week">	
+					<ArcGraph color='blue' updateArc={this.addNumber} size={[300,300]}/>
 				</Tab>
 				<Tab eventKey={3} title="Month">
-					<BarChart data={[2,4,1,64,22,235,11, 0 ,10]} size={[500,500]}/>
+					<ArcGraph color='orange' updateArc={this.addNumber} size={[300,300]}/>
 				</Tab>
 			</Tabs>
 
